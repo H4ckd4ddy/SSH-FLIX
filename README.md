@@ -3,6 +3,8 @@ The first streaming video service over SSH
 
 Under dev...
 
+![Home](screenshots/home.png)
+![Demo](screenshots/demo.png)
 
 ### Install
 
