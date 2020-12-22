@@ -14,4 +14,4 @@ ADD ssh-flix.jpg /
 
 RUN useradd sshflix --shell /menu.sh;printf '%s\n' "sshflix:U6aMy0wojraho" | chpasswd -e
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/usr/sbin/sshd", "-D", "-e"]
